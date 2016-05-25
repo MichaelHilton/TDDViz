@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<%= include_gon %>
+
+<script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+
+<style>
+#username{
+float:right;
+padding-top: 2px;
+padding-right: 4px;
+}
+
+.chart {
+  background-color: #efefef;
+}
+.chart text {
+  fill: black;
+  font: 10px sans-serif;
+  text-anchor: end;
+}
+
+.axis text {
+  font: 11px sans-serif;
+}
+
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.grid-background {
+  fill: #ddd;
+}
+
+.grid line,
+.grid path {
+  fill: none;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+}
+
+.grid .minor.tick line {
+  stroke-opacity: .5;
+}
+
+.brush .extent {
+  stroke: #000;
+  fill-opacity: .125;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis line,
+.axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+#PulseAreaDetail{
+width:100px;
+height:100px;
+
+}
+</style>
+
+<h3>
+<div id="username">
+Researcher: <%= params[:researcher] %>
+</div>
+</h3>
+
+<h3>CyberDojo Id: <%= params[:id] %>
+Avatar: <%= params[:avatar] %>
+Kata Name: <%= params[:kataName] %>
+</h3>
+Legend: 
+<BR>Light Gray is valid TDD <BR>
+Dark Gray is invalid TDD<BR>
+Black is no value
+
+<body>
+<div id="PulseAreaDetail"></div>
+<BR>
+<div id="viz"></div>
+<svg class="chart"></svg>
+
+<div id="accordion">
+</div>
+
+<script>
+
+var data = gon.compiles;
+var phaseData = gon.phases;
+// console.log(phaseData);
+compiles = gon.compiles;
+cycles = gon.cycles;
+
+console.log(gon.cycles);
+
+//checkLogin();
+pageSetup();
+
+
+
+drawKataBackground();
+drawCompilePoints();
+drawAxisAndBars();
+
+// drawAlgorithmMarkup(gon.phases);
+
+// drawEachUserMarkups(gon.allMarkups);
+// highlightDiffs(gon.allMarkups);
+
+// TDDData = gon.normalizedPhaseSLOC;
+
+// drawKataViz();
+buildpulseChart(gon.normalizedPhaseSLOC);
+
+</script>

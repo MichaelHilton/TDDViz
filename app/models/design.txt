@@ -1,0 +1,59 @@
+
+A key cyber-dojo feature is the ability to review the [test]
+events, diff by diff. Each [test] event causes a 'git commit'
+plus a 'git tag' to execute in the animals git repo.
+The [test] <-> [test] diffs are obtained via a 'git diff' command.
+Thus cyber-dojo implements persistence using plain disk files and
+does not use a database.
+
+From a paas object you create a dojo object like this...
+
+<code>
+externals = {
+  :disk => OsDisk.new,
+  :git => Git.new,
+  :runner => DockerTestRunner.new
+}
+Dojo.new(root_path,externals)
+</code>
+
+The live root_path is
+  /var/www/cyberdojo
+and a test is is
+  /var/www/cyberdojo/test/cyberdojo
+
+You can
+o) list all its languages or use [ ] to select a specific language.
+o) list all its exercises or use [ ] to select a specific exercise.
+o) list all the katas (practice sessions) or use [ ] to select a specific kata.
+o) list all the avatars or use [ ] to select a specific avatar.
+o) list all the tags or use [ ] to select a specific tag
+o) list all the lights or use [ ] to select a specific light
+
+For example
+<code>
+...
+dojo.languages.each {|language| ... }
+java = dojo.language['Java-JUnit']
+...
+dojo.exercises.each {|exercise| ... }
+diamond = dojo.exercises['Print-Diamond']
+...
+dojo.katas.each {|kata| ... }
+kata = dojo.katas['34D6E7823E']
+...
+kata.avatars.each {|avatar| ... }
+lion = kata.avatars['lion']
+...
+lion.tags.each {|tag| ...}
+tag = lion.tags[3]
+...
+lion.lights.each{|light| ...}
+light = lion.lights[5]
+</code>
+
+
+<code>
+src = dojo.katas['34D6E7823E'].avatars['lion'].tags[6].visible_files['wibble.h']
+src = dojo.katas['34D6E7823E'].avatars['lion'].light[3].colour
+</code>

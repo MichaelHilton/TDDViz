@@ -1,0 +1,47 @@
+<h1>List Katas in Dojo</h1>
+
+<h5>Number of CSV Rows:
+<%= @allSessions.count %>
+<BR>
+
+<% @allSessions.each do |session| %>
+    <tr>
+	    <td>session.kata_name:<%= session.kata_name %></td><BR>
+	    <td>session.cyberdojo_id:<%= session.cyberdojo_id %></td><BR>
+	    <td>session.language_framework:<%= session.language_framework %></td><BR>
+	    <td>session.path:<%= session.path %></td><BR>
+	    <td>session.avatar:<%= session.avatar %></td><BR>
+	    <td>session.computed_time_secs:<%= session.computed_time_secs %></td><BR>
+		<td>session.total_light_count:<%= session.total_light_count %></td><BR>
+		<td>session.red_light_count:<%= session.red_light_count %></td><BR>
+		<td>session.green_light_count:<%= session.green_light_count %></td><BR>
+		<td>session.amber_light_count:<%= session.amber_light_count %></td><BR>
+		<td>session.max_consecutive_red_chain_length:<%= session.max_consecutive_red_chain_length %></td><BR>
+		<td>session.total_sloc_count:<%= session.total_sloc_count %></td><BR>
+		<td>session.production_sloc_count:<%= session.production_sloc_count %></td><BR>
+		<td>session.test_sloc_count:<%= session.test_sloc_count %></td><BR>
+		<td>session.total_edited_line_count:<%= session.total_edited_line_count %></td><BR>
+		<td>session.production_edited_line_count:<%= session.production_edited_line_count %></td><BR>
+		<td>session.test_edited_line_count:<%= session.test_edited_line_count %></td><BR>
+		<td>session.final_test_method_count:<%= session.final_test_method_count %></td><BR>
+		<td>session.cumulative_test_run_count:<%= session.cumulative_test_run_count %></td><BR>
+		<td>session.cumulative_test_fail_count:<%= session.cumulative_test_fail_count %></td><BR>
+		<td>session.final_cyclomatic_complexity:<%= session.final_cyclomatic_complexity %></td><BR>
+		<td>session.final_branch_coverage:<%= session.final_branch_coverage %></td><BR>
+		<td>session.final_statement_coverage:<%= session.final_statement_coverage %></td><BR>
+		<td>session.total_cycle_count:<%= session.total_cycle_count %></td><BR>
+		<td>session.final_light_color:<%= session.final_light_color %></td><BR>
+		<td>session.tdd_score:<%= session.tdd_score %></td><BR>
+        <td>session.start_date:<%= session.start_date %></td><BR>
+        <td>session.total_light_count:<%= session.total_light_count %></td><BR>
+        <td>session.final_light_color:<%= session.final_light_color %></td><BR>
+      <BR>
+      <% session.compiles.each do |compile| %>
+      <td>compile.light_color:<%= compile.light_color %></td><BR>
+      <td>compile.git_tag:<%= compile.git_tag %></td><BR>
+      <td>compile.git_tag:<%= compile.git_tag %></td><BR>
+      <% end %>
+      <BR><BR>
+    </tr>
+  <% end %>
+</h5>

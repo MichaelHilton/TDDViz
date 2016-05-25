@@ -1,0 +1,2 @@
+module MarkupHelper
+end

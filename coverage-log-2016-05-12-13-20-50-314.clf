@@ -1,0 +1,51 @@
+// Charset: UTF-8
+// ///////////////////////////////
+// 
+// Start Session
+// 
+// 12.05.2016 13:20:50.318
+// 
+// ///////////////////////////////
+// 12.05.2016 13:20:50.318
+TEST_SESSION_CONTAINER "5e0699bc-e5c9-4a6e-9b14-333405742263"
+START_TEST_CASE "UNNAMED TESTCASE" 1463084450318 "This is a test case containing all coverage results cause no startTestCase methods where captured."
+START_SECTION "Untitled.java"
+S1 1
+S2 100
+S3 6
+S4 94
+S5 27
+S6 67
+S7 14
+S8 53
+S9 1
+B1 6
+B2 94
+B3 27
+B4 67
+B5 14
+B6 53
+C1-10 1
+C1-11 100
+C2-10 94
+C2-11 6
+C3-10 67
+C3-11 27
+C4-10 53
+C4-11 14
+L1-2 1
+START_SECTION "UntitledTest.java"
+S1 1
+S2 1
+S3 1
+// 12.05.2016 13:20:50.453
+// 00:00.135
+END_TEST_CASE "UNNAMED TESTCASE" 1463084450453
+// ///////////////////////////////
+// 
+// End Session
+// 
+// 12.05.2016 13:20:50.453
+// 00:00.135
+// 
+// ///////////////////////////////

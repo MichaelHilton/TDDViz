@@ -1,0 +1,24 @@
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+
+
+<center>
+<div>
+List Of Katas
+
+
+<% @sessions.each do |key, array| %>
+    <tr>
+      <td>
+<a href="display_kata?researcher=Michael&id=<%= key.cyberdojo_id %>&avatar=<%= key.avatar %>&kataName=<%= key.kata_name %>">display_kata?researcher=Michael&id=<%= key.cyberdojo_id %>&avatar=<%= key.avatar %>&kataName=<%= key.kata_name %></a> NumCycles:<%= key.cycles.count %> 
+      </td></br>
+     
+       <BR>
+    </tr>
+  <% end %>
+
+
+
+</div>
+</center>

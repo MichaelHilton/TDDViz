@@ -1,0 +1,47 @@
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+
+<script>
+$(function() {
+  $('button').on('click', function() {
+        window.location.href = '/completed/' + $("#kata_name option:selected").text();
+  });
+});
+</script>
+<center>
+<div>
+<%= select_tag(:kata_name, options_for_select([
+	['Fizz_Buzz'],
+	['Bowling_Game'],
+	['Tennis'],
+	['Leap_Years'],
+	['Anagrams'],
+	['100_doors'],
+	['Harry_Potter'],
+	['Roman_Numerals'],
+	['LCD_Digits'],
+	['Number_Names'],
+	['Prime_Factors'],
+	['Count_Coins'],
+	['Word_Wrap'],
+	['Phone_Numbers'],
+	['Haiku_Review'],
+	['Recently_Used_List'],
+	['Poker_Hands'],
+	['Print_Diamond'],
+	['Yatzy'],
+	['Mine_Field'],
+	['Reverse_Roman'],
+	['Monty_Hall'],
+	['Calc_Stats'],
+	['Number_Chains'],
+	['Diversion'],
+	['Reversi'],
+	['Mars_Rover'],
+	['Unsplice'],
+	['Zeckendorf_Number']
+	])) %>
+<button>Submit</button>
+</div>
+</center>

@@ -1,0 +1,1402 @@
+CYCLE_DIAG: 
+CYCLE_DIAG CURR: #<Compile:0x30a9e3db>
+CYCLE_DIAG INDEX: 0
+*************
+{
+Light color: red
+Test edit: false
+Production edit: false
+Current Phase: red
+Current Phase Empty?: true
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: nil, cycle_id: nil, tdd_color: "red", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: nil, updated_at: nil>
+curr_phase.id: 
+curr_phase.tdd_color: red
+Saved curr_compile to current phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x73bb1337>
+CYCLE_DIAG INDEX: 1
+*************
+{
+Light color: amber
+Test edit: true
+Production edit: false
+Current Phase: red
+Current Phase Empty?: false
+New Test?: true
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3240, cycle_id: nil, tdd_color: "red", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:43", updated_at: "2015-01-15 19:37:43">
+curr_phase.id: 3240
+curr_phase.tdd_color: red
+compile.git_tag: 1
+compile.light_color: red
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+Saved curr_compile to red phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x39e53bef>
+CYCLE_DIAG INDEX: 2
+*************
+{
+Light color: amber
+Test edit: false
+Production edit: false
+Current Phase: red
+Current Phase Empty?: false
+New Test?: false
+valid red?: true
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3240, cycle_id: nil, tdd_color: "red", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:43", updated_at: "2015-01-15 19:37:43">
+curr_phase.id: 3240
+curr_phase.tdd_color: red
+compile.git_tag: 1
+compile.light_color: red
+compile.git_tag: 2
+compile.light_color: amber
+Saved curr_compile to current phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x4a642e4b>
+CYCLE_DIAG INDEX: 3
+*************
+{
+Light color: amber
+Test edit: true
+Production edit: false
+Current Phase: red
+Current Phase Empty?: false
+New Test?: false
+valid red?: true
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3240, cycle_id: nil, tdd_color: "red", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:43", updated_at: "2015-01-15 19:37:43">
+curr_phase.id: 3240
+curr_phase.tdd_color: red
+compile.git_tag: 1
+compile.light_color: red
+compile.git_tag: 2
+compile.light_color: amber
+compile.git_tag: 3
+compile.light_color: amber
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+Saved curr_compile to red phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x74ba6ff5>
+CYCLE_DIAG INDEX: 4
+*************
+{
+Light color: amber
+Test edit: false
+Production edit: true
+Current Phase: red
+Current Phase Empty?: false
+New Test?: false
+valid red?: true
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3240, cycle_id: nil, tdd_color: "red", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:43", updated_at: "2015-01-15 19:37:43">
+curr_phase.id: 3240
+curr_phase.tdd_color: red
+compile.git_tag: 1
+compile.light_color: red
+compile.git_tag: 2
+compile.light_color: amber
+compile.git_tag: 3
+compile.light_color: amber
+compile.git_tag: 4
+compile.light_color: amber
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+Start Green Phase (only production changes and red or amber compile)
+Saved curr_compile to green phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x69796bd0>
+CYCLE_DIAG INDEX: 5
+*************
+{
+Light color: amber
+Test edit: false
+Production edit: true
+Current Phase: green
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+CurrCycle.id:2318
+CurrCycle.session_id:
+CurrCycle.session_id:
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: nil, cycle_id: nil, tdd_color: "green", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: nil, updated_at: nil>
+curr_phase.id: 
+curr_phase.tdd_color: green
+compile.git_tag: 5
+compile.light_color: amber
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x7971c2a9>
+CYCLE_DIAG INDEX: 6
+*************
+{
+Light color: amber
+Test edit: false
+Production edit: true
+Current Phase: green
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+CurrCycle.id:2318
+CurrCycle.session_id:
+CurrCycle.session_id:
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3241, cycle_id: nil, tdd_color: "green", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:44", updated_at: "2015-01-15 19:37:44">
+curr_phase.id: 3241
+curr_phase.tdd_color: green
+compile.git_tag: 5
+compile.light_color: amber
+compile.git_tag: 6
+compile.light_color: amber
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x3c81cd82>
+CYCLE_DIAG INDEX: 7
+*************
+{
+Light color: amber
+Test edit: true
+Production edit: false
+Current Phase: green
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+CurrCycle.id:2318
+CurrCycle.session_id:
+CurrCycle.session_id:
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3241, cycle_id: nil, tdd_color: "green", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:44", updated_at: "2015-01-15 19:37:44">
+curr_phase.id: 3241
+curr_phase.tdd_color: green
+compile.git_tag: 5
+compile.light_color: amber
+compile.git_tag: 6
+compile.light_color: amber
+compile.git_tag: 7
+compile.light_color: amber
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x6bce313>
+CYCLE_DIAG INDEX: 8
+*************
+{
+Light color: green
+Test edit: false
+Production edit: false
+Current Phase: green
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+CurrCycle.id:2318
+CurrCycle.session_id:
+CurrCycle.session_id:
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3241, cycle_id: nil, tdd_color: "green", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:44", updated_at: "2015-01-15 19:37:44">
+curr_phase.id: 3241
+curr_phase.tdd_color: green
+compile.git_tag: 5
+compile.light_color: amber
+compile.git_tag: 6
+compile.light_color: amber
+compile.git_tag: 7
+compile.light_color: amber
+compile.git_tag: 8
+compile.light_color: amber
+Saved curr_compile to current phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x7d66e544>
+CYCLE_DIAG INDEX: 9
+*************
+{
+Light color: red
+Test edit: true
+Production edit: false
+Current Phase: green
+Current Phase Empty?: false
+New Test?: true
+valid red?: false
+########## curr_cycle ##########
+CurrCycle.id:2318
+CurrCycle.session_id:
+CurrCycle.session_id:
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3241, cycle_id: nil, tdd_color: "green", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:44", updated_at: "2015-01-15 19:37:44">
+curr_phase.id: 3241
+curr_phase.tdd_color: green
+compile.git_tag: 5
+compile.light_color: amber
+compile.git_tag: 6
+compile.light_color: amber
+compile.git_tag: 7
+compile.light_color: amber
+compile.git_tag: 8
+compile.light_color: amber
+compile.git_tag: 9
+compile.light_color: green
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+[!4!] NON - TDD >> new test in green phase!
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x1a1f79ce>
+CYCLE_DIAG INDEX: 10
+*************
+{
+Light color: green
+Test edit: false
+Production edit: true
+Current Phase: white
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+CurrCycle.id:2318
+CurrCycle.session_id:
+CurrCycle.session_id:
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3241, cycle_id: nil, tdd_color: "white", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:44", updated_at: "2015-01-15 19:37:44">
+curr_phase.id: 3241
+curr_phase.tdd_color: white
+compile.git_tag: 5
+compile.light_color: amber
+compile.git_tag: 6
+compile.light_color: amber
+compile.git_tag: 7
+compile.light_color: amber
+compile.git_tag: 8
+compile.light_color: amber
+compile.git_tag: 9
+compile.light_color: green
+compile.git_tag: 10
+compile.light_color: red
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+Inside white phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x33ec2c0c>
+CYCLE_DIAG INDEX: 11
+*************
+{
+Light color: green
+Test edit: true
+Production edit: false
+Current Phase: white
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+CurrCycle.id:2318
+CurrCycle.session_id:
+CurrCycle.session_id:
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3241, cycle_id: nil, tdd_color: "white", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:44", updated_at: "2015-01-15 19:37:44">
+curr_phase.id: 3241
+curr_phase.tdd_color: white
+compile.git_tag: 5
+compile.light_color: amber
+compile.git_tag: 6
+compile.light_color: amber
+compile.git_tag: 7
+compile.light_color: amber
+compile.git_tag: 8
+compile.light_color: amber
+compile.git_tag: 9
+compile.light_color: green
+compile.git_tag: 10
+compile.light_color: red
+compile.git_tag: 11
+compile.light_color: green
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+Inside white phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x7e7740a5>
+CYCLE_DIAG INDEX: 12
+*************
+{
+Light color: green
+Test edit: false
+Production edit: false
+Current Phase: white
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+CurrCycle.id:2318
+CurrCycle.session_id:
+CurrCycle.session_id:
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3241, cycle_id: nil, tdd_color: "white", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:44", updated_at: "2015-01-15 19:37:44">
+curr_phase.id: 3241
+curr_phase.tdd_color: white
+compile.git_tag: 5
+compile.light_color: amber
+compile.git_tag: 6
+compile.light_color: amber
+compile.git_tag: 7
+compile.light_color: amber
+compile.git_tag: 8
+compile.light_color: amber
+compile.git_tag: 9
+compile.light_color: green
+compile.git_tag: 10
+compile.light_color: red
+compile.git_tag: 11
+compile.light_color: green
+compile.git_tag: 12
+compile.light_color: green
+Saved curr_compile to current phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x16d431b4>
+CYCLE_DIAG INDEX: 13
+*************
+{
+Light color: red
+Test edit: true
+Production edit: false
+Current Phase: white
+Current Phase Empty?: false
+New Test?: true
+valid red?: false
+########## curr_cycle ##########
+CurrCycle.id:2318
+CurrCycle.session_id:
+CurrCycle.session_id:
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3241, cycle_id: nil, tdd_color: "white", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:44", updated_at: "2015-01-15 19:37:44">
+curr_phase.id: 3241
+curr_phase.tdd_color: white
+compile.git_tag: 5
+compile.light_color: amber
+compile.git_tag: 6
+compile.light_color: amber
+compile.git_tag: 7
+compile.light_color: amber
+compile.git_tag: 8
+compile.light_color: amber
+compile.git_tag: 9
+compile.light_color: green
+compile.git_tag: 10
+compile.light_color: red
+compile.git_tag: 11
+compile.light_color: green
+compile.git_tag: 12
+compile.light_color: green
+compile.git_tag: 13
+compile.light_color: green
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+Exit white phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x69a40b3c>
+CYCLE_DIAG INDEX: 14
+*************
+{
+Light color: green
+Test edit: false
+Production edit: true
+Current Phase: red
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3242, cycle_id: nil, tdd_color: "red", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:44", updated_at: "2015-01-15 19:37:44">
+curr_phase.id: 3242
+curr_phase.tdd_color: red
+compile.git_tag: 14
+compile.light_color: red
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+[!3!] NON - TDD >> production edits in testing phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x7b9088f2>
+CYCLE_DIAG INDEX: 15
+*************
+{
+Light color: green
+Test edit: true
+Production edit: false
+Current Phase: white
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3242, cycle_id: nil, tdd_color: "white", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:44", updated_at: "2015-01-15 19:37:44">
+curr_phase.id: 3242
+curr_phase.tdd_color: white
+compile.git_tag: 14
+compile.light_color: red
+compile.git_tag: 15
+compile.light_color: green
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+Inside white phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x2b6fb197>
+CYCLE_DIAG INDEX: 16
+*************
+{
+Light color: red
+Test edit: true
+Production edit: false
+Current Phase: white
+Current Phase Empty?: false
+New Test?: true
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3242, cycle_id: nil, tdd_color: "white", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:44", updated_at: "2015-01-15 19:37:44">
+curr_phase.id: 3242
+curr_phase.tdd_color: white
+compile.git_tag: 14
+compile.light_color: red
+compile.git_tag: 15
+compile.light_color: green
+compile.git_tag: 16
+compile.light_color: green
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+Exit white phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x5d850a25>
+CYCLE_DIAG INDEX: 17
+*************
+{
+Light color: green
+Test edit: false
+Production edit: true
+Current Phase: red
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3243, cycle_id: nil, tdd_color: "red", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:44", updated_at: "2015-01-15 19:37:44">
+curr_phase.id: 3243
+curr_phase.tdd_color: red
+compile.git_tag: 17
+compile.light_color: red
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+[!3!] NON - TDD >> production edits in testing phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x72c9ebfa>
+CYCLE_DIAG INDEX: 18
+*************
+{
+Light color: green
+Test edit: true
+Production edit: false
+Current Phase: white
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3243, cycle_id: nil, tdd_color: "white", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:44", updated_at: "2015-01-15 19:37:44">
+curr_phase.id: 3243
+curr_phase.tdd_color: white
+compile.git_tag: 17
+compile.light_color: red
+compile.git_tag: 18
+compile.light_color: green
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+Inside white phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x756808cc>
+CYCLE_DIAG INDEX: 19
+*************
+{
+Light color: red
+Test edit: true
+Production edit: false
+Current Phase: white
+Current Phase Empty?: false
+New Test?: true
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3243, cycle_id: nil, tdd_color: "white", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:44", updated_at: "2015-01-15 19:37:44">
+curr_phase.id: 3243
+curr_phase.tdd_color: white
+compile.git_tag: 17
+compile.light_color: red
+compile.git_tag: 18
+compile.light_color: green
+compile.git_tag: 19
+compile.light_color: green
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+Exit white phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x571a663c>
+CYCLE_DIAG INDEX: 20
+*************
+{
+Light color: green
+Test edit: false
+Production edit: true
+Current Phase: red
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3244, cycle_id: nil, tdd_color: "red", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:44", updated_at: "2015-01-15 19:37:44">
+curr_phase.id: 3244
+curr_phase.tdd_color: red
+compile.git_tag: 20
+compile.light_color: red
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+[!3!] NON - TDD >> production edits in testing phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x48e41b5d>
+CYCLE_DIAG INDEX: 21
+*************
+{
+Light color: red
+Test edit: true
+Production edit: false
+Current Phase: white
+Current Phase Empty?: false
+New Test?: true
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3244, cycle_id: nil, tdd_color: "white", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:44", updated_at: "2015-01-15 19:37:44">
+curr_phase.id: 3244
+curr_phase.tdd_color: white
+compile.git_tag: 20
+compile.light_color: red
+compile.git_tag: 21
+compile.light_color: green
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+Exit white phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x6169be09>
+CYCLE_DIAG INDEX: 22
+*************
+{
+Light color: green
+Test edit: false
+Production edit: true
+Current Phase: red
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3245, cycle_id: nil, tdd_color: "red", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:44", updated_at: "2015-01-15 19:37:44">
+curr_phase.id: 3245
+curr_phase.tdd_color: red
+compile.git_tag: 22
+compile.light_color: red
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+[!3!] NON - TDD >> production edits in testing phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x45c80312>
+CYCLE_DIAG INDEX: 23
+*************
+{
+Light color: green
+Test edit: true
+Production edit: false
+Current Phase: white
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3245, cycle_id: nil, tdd_color: "white", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:44", updated_at: "2015-01-15 19:37:44">
+curr_phase.id: 3245
+curr_phase.tdd_color: white
+compile.git_tag: 22
+compile.light_color: red
+compile.git_tag: 23
+compile.light_color: green
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+Inside white phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x7364f68>
+CYCLE_DIAG INDEX: 24
+*************
+{
+Light color: red
+Test edit: true
+Production edit: false
+Current Phase: white
+Current Phase Empty?: false
+New Test?: true
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3245, cycle_id: nil, tdd_color: "white", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:44", updated_at: "2015-01-15 19:37:44">
+curr_phase.id: 3245
+curr_phase.tdd_color: white
+compile.git_tag: 22
+compile.light_color: red
+compile.git_tag: 23
+compile.light_color: green
+compile.git_tag: 24
+compile.light_color: green
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+Exit white phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x712e787e>
+CYCLE_DIAG INDEX: 25
+*************
+{
+Light color: green
+Test edit: false
+Production edit: true
+Current Phase: red
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3246, cycle_id: nil, tdd_color: "red", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:45", updated_at: "2015-01-15 19:37:45">
+curr_phase.id: 3246
+curr_phase.tdd_color: red
+compile.git_tag: 25
+compile.light_color: red
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+[!3!] NON - TDD >> production edits in testing phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x56fda064>
+CYCLE_DIAG INDEX: 26
+*************
+{
+Light color: red
+Test edit: true
+Production edit: false
+Current Phase: white
+Current Phase Empty?: false
+New Test?: true
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3246, cycle_id: nil, tdd_color: "white", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:45", updated_at: "2015-01-15 19:37:45">
+curr_phase.id: 3246
+curr_phase.tdd_color: white
+compile.git_tag: 25
+compile.light_color: red
+compile.git_tag: 26
+compile.light_color: green
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+Exit white phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x597d48ca>
+CYCLE_DIAG INDEX: 27
+*************
+{
+Light color: green
+Test edit: false
+Production edit: true
+Current Phase: red
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3247, cycle_id: nil, tdd_color: "red", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:45", updated_at: "2015-01-15 19:37:45">
+curr_phase.id: 3247
+curr_phase.tdd_color: red
+compile.git_tag: 27
+compile.light_color: red
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+[!3!] NON - TDD >> production edits in testing phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0xef86c72>
+CYCLE_DIAG INDEX: 28
+*************
+{
+Light color: green
+Test edit: true
+Production edit: false
+Current Phase: white
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3247, cycle_id: nil, tdd_color: "white", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:45", updated_at: "2015-01-15 19:37:45">
+curr_phase.id: 3247
+curr_phase.tdd_color: white
+compile.git_tag: 27
+compile.light_color: red
+compile.git_tag: 28
+compile.light_color: green
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+Inside white phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x342beaf6>
+CYCLE_DIAG INDEX: 29
+*************
+{
+Light color: amber
+Test edit: false
+Production edit: true
+Current Phase: white
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3247, cycle_id: nil, tdd_color: "white", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:45", updated_at: "2015-01-15 19:37:45">
+curr_phase.id: 3247
+curr_phase.tdd_color: white
+compile.git_tag: 27
+compile.light_color: red
+compile.git_tag: 28
+compile.light_color: green
+compile.git_tag: 29
+compile.light_color: green
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x1a2e563e>
+CYCLE_DIAG INDEX: 30
+*************
+{
+Light color: amber
+Test edit: false
+Production edit: false
+Current Phase: white
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3247, cycle_id: nil, tdd_color: "white", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:45", updated_at: "2015-01-15 19:37:45">
+curr_phase.id: 3247
+curr_phase.tdd_color: white
+compile.git_tag: 27
+compile.light_color: red
+compile.git_tag: 28
+compile.light_color: green
+compile.git_tag: 29
+compile.light_color: green
+Saved curr_compile to current phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x649b5891>
+CYCLE_DIAG INDEX: 31
+*************
+{
+Light color: green
+Test edit: false
+Production edit: true
+Current Phase: white
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3247, cycle_id: nil, tdd_color: "white", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:45", updated_at: "2015-01-15 19:37:45">
+curr_phase.id: 3247
+curr_phase.tdd_color: white
+compile.git_tag: 27
+compile.light_color: red
+compile.git_tag: 28
+compile.light_color: green
+compile.git_tag: 29
+compile.light_color: green
+compile.git_tag: 31
+compile.light_color: amber
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+Inside white phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x31881aa2>
+CYCLE_DIAG INDEX: 32
+*************
+{
+Light color: green
+Test edit: false
+Production edit: true
+Current Phase: white
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3247, cycle_id: nil, tdd_color: "white", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:45", updated_at: "2015-01-15 19:37:45">
+curr_phase.id: 3247
+curr_phase.tdd_color: white
+compile.git_tag: 27
+compile.light_color: red
+compile.git_tag: 28
+compile.light_color: green
+compile.git_tag: 29
+compile.light_color: green
+compile.git_tag: 31
+compile.light_color: amber
+compile.git_tag: 32
+compile.light_color: green
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+Inside white phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x96abc76>
+CYCLE_DIAG INDEX: 33
+*************
+{
+Light color: amber
+Test edit: false
+Production edit: true
+Current Phase: white
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3247, cycle_id: nil, tdd_color: "white", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:45", updated_at: "2015-01-15 19:37:45">
+curr_phase.id: 3247
+curr_phase.tdd_color: white
+compile.git_tag: 27
+compile.light_color: red
+compile.git_tag: 28
+compile.light_color: green
+compile.git_tag: 29
+compile.light_color: green
+compile.git_tag: 31
+compile.light_color: amber
+compile.git_tag: 32
+compile.light_color: green
+compile.git_tag: 33
+compile.light_color: green
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x7d25913>
+CYCLE_DIAG INDEX: 34
+*************
+{
+Light color: green
+Test edit: false
+Production edit: true
+Current Phase: white
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3247, cycle_id: nil, tdd_color: "white", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:45", updated_at: "2015-01-15 19:37:45">
+curr_phase.id: 3247
+curr_phase.tdd_color: white
+compile.git_tag: 27
+compile.light_color: red
+compile.git_tag: 28
+compile.light_color: green
+compile.git_tag: 29
+compile.light_color: green
+compile.git_tag: 31
+compile.light_color: amber
+compile.git_tag: 32
+compile.light_color: green
+compile.git_tag: 33
+compile.light_color: green
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+Inside white phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x4db0ba1c>
+CYCLE_DIAG INDEX: 35
+*************
+{
+Light color: red
+Test edit: true
+Production edit: false
+Current Phase: white
+Current Phase Empty?: false
+New Test?: true
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3247, cycle_id: nil, tdd_color: "white", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:45", updated_at: "2015-01-15 19:37:45">
+curr_phase.id: 3247
+curr_phase.tdd_color: white
+compile.git_tag: 27
+compile.light_color: red
+compile.git_tag: 28
+compile.light_color: green
+compile.git_tag: 29
+compile.light_color: green
+compile.git_tag: 31
+compile.light_color: amber
+compile.git_tag: 32
+compile.light_color: green
+compile.git_tag: 33
+compile.light_color: green
+compile.git_tag: 35
+compile.light_color: green
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+Exit white phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x26fadd98>
+CYCLE_DIAG INDEX: 36
+*************
+{
+Light color: green
+Test edit: false
+Production edit: true
+Current Phase: red
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3248, cycle_id: nil, tdd_color: "red", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:45", updated_at: "2015-01-15 19:37:45">
+curr_phase.id: 3248
+curr_phase.tdd_color: red
+compile.git_tag: 36
+compile.light_color: red
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+[!3!] NON - TDD >> production edits in testing phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x677349fb>
+CYCLE_DIAG INDEX: 37
+*************
+{
+Light color: red
+Test edit: true
+Production edit: false
+Current Phase: white
+Current Phase Empty?: false
+New Test?: true
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3248, cycle_id: nil, tdd_color: "white", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:45", updated_at: "2015-01-15 19:37:45">
+curr_phase.id: 3248
+curr_phase.tdd_color: white
+compile.git_tag: 36
+compile.light_color: red
+compile.git_tag: 37
+compile.light_color: green
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+Exit white phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x4ae8fb2a>
+CYCLE_DIAG INDEX: 38
+*************
+{
+Light color: green
+Test edit: false
+Production edit: true
+Current Phase: red
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3249, cycle_id: nil, tdd_color: "red", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:45", updated_at: "2015-01-15 19:37:45">
+curr_phase.id: 3249
+curr_phase.tdd_color: red
+compile.git_tag: 38
+compile.light_color: red
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+[!3!] NON - TDD >> production edits in testing phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x642c6461>
+CYCLE_DIAG INDEX: 39
+*************
+{
+Light color: green
+Test edit: true
+Production edit: false
+Current Phase: white
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3249, cycle_id: nil, tdd_color: "white", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:45", updated_at: "2015-01-15 19:37:45">
+curr_phase.id: 3249
+curr_phase.tdd_color: white
+compile.git_tag: 38
+compile.light_color: red
+compile.git_tag: 39
+compile.light_color: green
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+Inside white phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x7ddeb27f>
+CYCLE_DIAG INDEX: 40
+*************
+{
+Light color: red
+Test edit: true
+Production edit: false
+Current Phase: white
+Current Phase Empty?: false
+New Test?: true
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3249, cycle_id: nil, tdd_color: "white", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:45", updated_at: "2015-01-15 19:37:45">
+curr_phase.id: 3249
+curr_phase.tdd_color: white
+compile.git_tag: 38
+compile.light_color: red
+compile.git_tag: 39
+compile.light_color: green
+compile.git_tag: 40
+compile.light_color: green
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+Exit white phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x23564dd2>
+CYCLE_DIAG INDEX: 41
+*************
+{
+Light color: green
+Test edit: false
+Production edit: true
+Current Phase: red
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3250, cycle_id: nil, tdd_color: "red", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:45", updated_at: "2015-01-15 19:37:45">
+curr_phase.id: 3250
+curr_phase.tdd_color: red
+compile.git_tag: 41
+compile.light_color: red
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+[!3!] NON - TDD >> production edits in testing phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x687eb455>
+CYCLE_DIAG INDEX: 42
+*************
+{
+Light color: green
+Test edit: true
+Production edit: false
+Current Phase: white
+Current Phase Empty?: false
+New Test?: true
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3250, cycle_id: nil, tdd_color: "white", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:45", updated_at: "2015-01-15 19:37:45">
+curr_phase.id: 3250
+curr_phase.tdd_color: white
+compile.git_tag: 41
+compile.light_color: red
+compile.git_tag: 42
+compile.light_color: green
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+Inside white phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x66020d69>
+CYCLE_DIAG INDEX: 43
+*************
+{
+Light color: green
+Test edit: true
+Production edit: false
+Current Phase: white
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3250, cycle_id: nil, tdd_color: "white", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:45", updated_at: "2015-01-15 19:37:45">
+curr_phase.id: 3250
+curr_phase.tdd_color: white
+compile.git_tag: 41
+compile.light_color: red
+compile.git_tag: 42
+compile.light_color: green
+compile.git_tag: 43
+compile.light_color: green
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+Inside white phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x1491cd6c>
+CYCLE_DIAG INDEX: 44
+*************
+{
+Light color: red
+Test edit: true
+Production edit: false
+Current Phase: white
+Current Phase Empty?: false
+New Test?: true
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3250, cycle_id: nil, tdd_color: "white", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:45", updated_at: "2015-01-15 19:37:45">
+curr_phase.id: 3250
+curr_phase.tdd_color: white
+compile.git_tag: 41
+compile.light_color: red
+compile.git_tag: 42
+compile.light_color: green
+compile.git_tag: 43
+compile.light_color: green
+compile.git_tag: 44
+compile.light_color: green
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+Exit white phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x4bbf38b8>
+CYCLE_DIAG INDEX: 45
+*************
+{
+Light color: green
+Test edit: false
+Production edit: true
+Current Phase: red
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3251, cycle_id: nil, tdd_color: "red", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:45", updated_at: "2015-01-15 19:37:45">
+curr_phase.id: 3251
+curr_phase.tdd_color: red
+compile.git_tag: 45
+compile.light_color: red
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+[!3!] NON - TDD >> production edits in testing phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0xc472300>
+CYCLE_DIAG INDEX: 46
+*************
+{
+Light color: green
+Test edit: true
+Production edit: false
+Current Phase: white
+Current Phase Empty?: false
+New Test?: true
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3251, cycle_id: nil, tdd_color: "white", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:45", updated_at: "2015-01-15 19:37:45">
+curr_phase.id: 3251
+curr_phase.tdd_color: white
+compile.git_tag: 45
+compile.light_color: red
+compile.git_tag: 46
+compile.light_color: green
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+Inside white phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x537b3b2e>
+CYCLE_DIAG INDEX: 47
+*************
+{
+Light color: green
+Test edit: true
+Production edit: false
+Current Phase: white
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3251, cycle_id: nil, tdd_color: "white", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:45", updated_at: "2015-01-15 19:37:45">
+curr_phase.id: 3251
+curr_phase.tdd_color: white
+compile.git_tag: 45
+compile.light_color: red
+compile.git_tag: 46
+compile.light_color: green
+compile.git_tag: 47
+compile.light_color: green
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+Inside white phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x147e0734>
+CYCLE_DIAG INDEX: 48
+*************
+{
+Light color: red
+Test edit: true
+Production edit: false
+Current Phase: white
+Current Phase Empty?: false
+New Test?: true
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3251, cycle_id: nil, tdd_color: "white", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:45", updated_at: "2015-01-15 19:37:45">
+curr_phase.id: 3251
+curr_phase.tdd_color: white
+compile.git_tag: 45
+compile.light_color: red
+compile.git_tag: 46
+compile.light_color: green
+compile.git_tag: 47
+compile.light_color: green
+compile.git_tag: 48
+compile.light_color: green
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+Exit white phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x13ca16bf>
+CYCLE_DIAG INDEX: 49
+*************
+{
+Light color: green
+Test edit: false
+Production edit: true
+Current Phase: red
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3252, cycle_id: nil, tdd_color: "red", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:46", updated_at: "2015-01-15 19:37:46">
+curr_phase.id: 3252
+curr_phase.tdd_color: red
+compile.git_tag: 49
+compile.light_color: red
+%%%%%%%%%%%  Start CASE  %%%%%%%%%%%
+[!3!] NON - TDD >> production edits in testing phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x5fd8dd66>
+CYCLE_DIAG INDEX: 50
+*************
+{
+Light color: green
+Test edit: false
+Production edit: false
+Current Phase: white
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3252, cycle_id: nil, tdd_color: "white", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:46", updated_at: "2015-01-15 19:37:46">
+curr_phase.id: 3252
+curr_phase.tdd_color: white
+compile.git_tag: 49
+compile.light_color: red
+compile.git_tag: 50
+compile.light_color: green
+Saved curr_compile to current phase
+}
+*************
+CYCLE_DIAG CURR: #<Compile:0x2bb31455>
+CYCLE_DIAG INDEX: 51
+*************
+{
+Light color: green
+Test edit: false
+Production edit: false
+Current Phase: white
+Current Phase Empty?: false
+New Test?: false
+valid red?: false
+########## curr_cycle ##########
+NULL CYCLE
+&&&&&&&&& curr_phase &&&&&&&&&&
+#<Phase id: 3252, cycle_id: nil, tdd_color: "white", seconds_in_phase: nil, total_edit_count: nil, production_edit_count: nil, test_edit_count: nil, total_sloc_count: nil, production_sloc_count: nil, test_sloc_count: nil, total_line_change_count: nil, production_line_change_count: nil, test_line_change_count: nil, first_compile_in_phase: nil, last_compile_in_phase: nil, created_at: "2015-01-15 19:37:46", updated_at: "2015-01-15 19:37:46">
+curr_phase.id: 3252
+curr_phase.tdd_color: white
+compile.git_tag: 49
+compile.light_color: red
+compile.git_tag: 50
+compile.light_color: green
+compile.git_tag: 51
+compile.light_color: green
+Saved curr_compile to current phase
+}
+*************

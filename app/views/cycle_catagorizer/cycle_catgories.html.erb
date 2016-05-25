@@ -1,0 +1,9 @@
+<h1>CycleCatagorizer#cycle_catgories</h1>
+
+<% cycle = Cycle.create(total_edit_count: 20,production_edit_count: 30)  %>
+<% @cycles.each do |cycle| %>
+    <tr>
+      <td><%= cycle.total_edit_count %></td>
+      <td><%= cycle.production_edit_count %></td>
+    </tr>
+  <% end %>

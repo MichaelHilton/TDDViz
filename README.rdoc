@@ -1,0 +1,19 @@
+== TDDStudy README
+
+This README documents the steps necessary to get the
+application up and running.
+
+* Ruby version
+JRuby 1.7.15
+
+* Gems
+Listed in Gemfile install via:
+'bundle install'
+Update via:
+'bundle update'
+
+* Database Initalization
+'bundle exec rake db:setup'
+
+* How to run the test suite
+TODO

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?><TestSessionContainer xmlns="http://www.codecover.org/xml/testsession-container" Date="1463084449318" TestSessionContainerId="5e0699bc-e5c9-4a6e-9b14-333405742263" version="1.0">
+<SrcFileList>
+<SrcFile Content="&#10;public class Untitled {&#10;    &#10;    public static int answer() {&#10;        for (int i=1; i&lt;=100; i++) {&#10;            if(0 == i % 15) System.out.println(&quot;FizzBuzz&quot;);&#10;            else if (0 == i % 3) System.out.println(&quot;Fizz&quot;);&#10;            else if (0 == i % 5) System.out.println(&quot;Buzz&quot;);&#10;            else System.out.println(i);&#10;        }&#10;&#10;        return 1;&#10;    }&#10;}&#10;" Filename="Untitled.java" Intrnl_Id="1"/>
+<SrcFile Content="import org.junit.*;&#10;import static org.junit.Assert.*;&#10;&#10;public class UntitledTest {&#10;    &#10;    @Test&#10;    public void hitch_hiker() {&#10;        int expected = 6 * 9;&#10;        int actual = Untitled.answer();&#10;        assertEquals(expected, actual);&#10;    }&#10;}&#10;" Filename="UntitledTest.java" Intrnl_Id="2"/>
+</SrcFileList>
+<CritList>
+<CritListEntry Name="org.codecover.model.utils.criteria.LoopCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.ConditionCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.BranchCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.StatementCoverage" PluginName="org.codecover"/>
+</CritList>
+<BoolOpList/>
+<HierarchyLvlTypeList>
+<HierarchyLvlType EnglishName="method" IntrnlName="method" Intrnl_Id="3"/>
+<HierarchyLvlType EnglishName="class" IntrnlName="class" Intrnl_Id="4"/>
+<HierarchyLvlType EnglishName="default package" IntrnlName="default package" Intrnl_Id="5"/>
+</HierarchyLvlTypeList>
+<MASTRoot>
+<HierarchyLvl HierarchyLvlId="5" HierarchyLvlTypeId="5" Intrnl_Id="6" Name="default package">
+<Header/>
+<LocList/>
+<HierarchyLvl HierarchyLvlId="2" HierarchyLvlTypeId="4" Intrnl_Id="7" Name="Untitled">
+<Header>
+<Loc EndOffset="22" SrcFileId="1" StartOffset="1"/>
+</Header>
+<LocList>
+<Loc EndOffset="358" SrcFileId="1" StartOffset="1"/>
+</LocList>
+<HierarchyLvl HierarchyLvlId="1" HierarchyLvlTypeId="3" Intrnl_Id="8" Name="answer">
+<Header>
+<Loc EndOffset="60" SrcFileId="1" StartOffset="34"/>
+</Header>
+<LocList>
+<Loc EndOffset="356" SrcFileId="1" StartOffset="34"/>
+</LocList>
+<StmntSeq Intrnl_Id="9">
+<LocList>
+<Loc EndOffset="331" SrcFileId="1" StartOffset="71"/>
+<Loc EndOffset="350" SrcFileId="1" StartOffset="341"/>
+</LocList>
+<LoopStmnt CovItemId="S1" CovItemPrefix="Untitled.java" Intrnl_Id="10" MltplExecId="L1-2" MltplExecPrefix="Untitled.java" NvrExecId="L1-0" NvrExecPrefix="Untitled.java" OnceExecutedId="L1-1" OnceExecutedPrefix="Untitled.java" OptBodyExec="true">
+<StmntSeq Intrnl_Id="11">
+<LocList>
+<Loc EndOffset="321" SrcFileId="1" StartOffset="112"/>
+</LocList>
+<CondStmnt CovItemId="S2" CovItemPrefix="Untitled.java" Intrnl_Id="12">
+<Branch CovItemId="B1" CovItemPrefix="Untitled.java" Implct="false" Intrnl_Id="13">
+<Cond/>
+<LocList>
+<Loc EndOffset="159" SrcFileId="1" StartOffset="128"/>
+</LocList>
+<StmntSeq Intrnl_Id="14">
+<LocList>
+<Loc EndOffset="159" SrcFileId="1" StartOffset="128"/>
+</LocList>
+<BasicStmnt CovItemId="S3" CovItemPrefix="Untitled.java" Intrnl_Id="15">
+<LocList>
+<Loc EndOffset="159" SrcFileId="1" StartOffset="128"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</Branch>
+<Branch CovItemId="B2" CovItemPrefix="Untitled.java" Implct="false" Intrnl_Id="16">
+<Cond>
+<Loc EndOffset="176" SrcFileId="1" StartOffset="172"/>
+</Cond>
+<LocList>
+<Loc EndOffset="321" SrcFileId="1" StartOffset="177"/>
+</LocList>
+<StmntSeq Intrnl_Id="17">
+<LocList>
+<Loc EndOffset="321" SrcFileId="1" StartOffset="177"/>
+</LocList>
+<CondStmnt CovItemId="S4" CovItemPrefix="Untitled.java" Intrnl_Id="18">
+<Branch CovItemId="B3" CovItemPrefix="Untitled.java" Implct="false" Intrnl_Id="19">
+<Cond/>
+<LocList>
+<Loc EndOffset="220" SrcFileId="1" StartOffset="193"/>
+</LocList>
+<StmntSeq Intrnl_Id="20">
+<LocList>
+<Loc EndOffset="220" SrcFileId="1" StartOffset="193"/>
+</LocList>
+<BasicStmnt CovItemId="S5" CovItemPrefix="Untitled.java" Intrnl_Id="21">
+<LocList>
+<Loc EndOffset="220" SrcFileId="1" StartOffset="193"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</Branch>
+<Branch CovItemId="B4" CovItemPrefix="Untitled.java" Implct="false" Intrnl_Id="22">
+<Cond>
+<Loc EndOffset="237" SrcFileId="1" StartOffset="233"/>
+</Cond>
+<LocList>
+<Loc EndOffset="321" SrcFileId="1" StartOffset="238"/>
+</LocList>
+<StmntSeq Intrnl_Id="23">
+<LocList>
+<Loc EndOffset="321" SrcFileId="1" StartOffset="238"/>
+</LocList>
+<CondStmnt CovItemId="S6" CovItemPrefix="Untitled.java" Intrnl_Id="24">
+<Branch CovItemId="B5" CovItemPrefix="Untitled.java" Implct="false" Intrnl_Id="25">
+<Cond/>
+<LocList>
+<Loc EndOffset="281" SrcFileId="1" StartOffset="254"/>
+</LocList>
+<StmntSeq Intrnl_Id="26">
+<LocList>
+<Loc EndOffset="281" SrcFileId="1" StartOffset="254"/>
+</LocList>
+<BasicStmnt CovItemId="S7" CovItemPrefix="Untitled.java" Intrnl_Id="27">
+<LocList>
+<Loc EndOffset="281" SrcFileId="1" StartOffset="254"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</Branch>
+<Branch CovItemId="B6" CovItemPrefix="Untitled.java" Implct="false" Intrnl_Id="28">
+<Cond>
+<Loc EndOffset="298" SrcFileId="1" StartOffset="294"/>
+</Cond>
+<LocList>
+<Loc EndOffset="321" SrcFileId="1" StartOffset="299"/>
+</LocList>
+<StmntSeq Intrnl_Id="29">
+<LocList>
+<Loc EndOffset="321" SrcFileId="1" StartOffset="299"/>
+</LocList>
+<BasicStmnt CovItemId="S8" CovItemPrefix="Untitled.java" Intrnl_Id="30">
+<LocList>
+<Loc EndOffset="321" SrcFileId="1" StartOffset="299"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</Branch>
+<Keyword EndOffset="240" SrcFileId="1" StartOffset="238"/>
+<LocList>
+<Loc EndOffset="321" SrcFileId="1" StartOffset="238"/>
+</LocList>
+<RootTerm CovItemId="C4" CovItemPrefix="Untitled.java" Intrnl_Id="31">
+<BasicBoolTerm Intrnl_Id="32">
+<LocList>
+<Loc EndOffset="252" SrcFileId="1" StartOffset="242"/>
+</LocList>
+</BasicBoolTerm>
+</RootTerm>
+</CondStmnt>
+</StmntSeq>
+</Branch>
+<Keyword EndOffset="179" SrcFileId="1" StartOffset="177"/>
+<LocList>
+<Loc EndOffset="321" SrcFileId="1" StartOffset="177"/>
+</LocList>
+<RootTerm CovItemId="C3" CovItemPrefix="Untitled.java" Intrnl_Id="33">
+<BasicBoolTerm Intrnl_Id="34">
+<LocList>
+<Loc EndOffset="191" SrcFileId="1" StartOffset="181"/>
+</LocList>
+</BasicBoolTerm>
+</RootTerm>
+</CondStmnt>
+</StmntSeq>
+</Branch>
+<Keyword EndOffset="114" SrcFileId="1" StartOffset="112"/>
+<LocList>
+<Loc EndOffset="321" SrcFileId="1" StartOffset="112"/>
+</LocList>
+<RootTerm CovItemId="C2" CovItemPrefix="Untitled.java" Intrnl_Id="35">
+<BasicBoolTerm Intrnl_Id="36">
+<LocList>
+<Loc EndOffset="126" SrcFileId="1" StartOffset="115"/>
+</LocList>
+</BasicBoolTerm>
+</RootTerm>
+</CondStmnt>
+</StmntSeq>
+<Keyword EndOffset="74" SrcFileId="1" StartOffset="71"/>
+<LocList>
+<Loc EndOffset="331" SrcFileId="1" StartOffset="71"/>
+</LocList>
+<RootTerm CovItemId="C1" CovItemPrefix="Untitled.java" Intrnl_Id="37">
+<BasicBoolTerm Intrnl_Id="38">
+<LocList>
+<Loc EndOffset="91" SrcFileId="1" StartOffset="85"/>
+</LocList>
+</BasicBoolTerm>
+</RootTerm>
+</LoopStmnt>
+<BasicStmnt CovItemId="S9" CovItemPrefix="Untitled.java" Intrnl_Id="39">
+<LocList>
+<Loc EndOffset="350" SrcFileId="1" StartOffset="341"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="4" HierarchyLvlTypeId="4" Intrnl_Id="40" Name="UntitledTest">
+<Header>
+<Loc EndOffset="80" SrcFileId="2" StartOffset="55"/>
+</Header>
+<LocList>
+<Loc EndOffset="247" SrcFileId="2" StartOffset="55"/>
+</LocList>
+<HierarchyLvl HierarchyLvlId="3" HierarchyLvlTypeId="3" Intrnl_Id="41" Name="hitch_hiker">
+<Header>
+<Loc EndOffset="127" SrcFileId="2" StartOffset="92"/>
+</Header>
+<LocList>
+<Loc EndOffset="245" SrcFileId="2" StartOffset="92"/>
+</LocList>
+<StmntSeq Intrnl_Id="42">
+<LocList>
+<Loc EndOffset="159" SrcFileId="2" StartOffset="138"/>
+<Loc EndOffset="199" SrcFileId="2" StartOffset="168"/>
+<Loc EndOffset="239" SrcFileId="2" StartOffset="208"/>
+</LocList>
+<BasicStmnt CovItemId="S1" CovItemPrefix="UntitledTest.java" Intrnl_Id="43">
+<LocList>
+<Loc EndOffset="159" SrcFileId="2" StartOffset="138"/>
+</LocList>
+</BasicStmnt>
+<BasicStmnt CovItemId="S2" CovItemPrefix="UntitledTest.java" Intrnl_Id="44">
+<LocList>
+<Loc EndOffset="199" SrcFileId="2" StartOffset="168"/>
+</LocList>
+</BasicStmnt>
+<BasicStmnt CovItemId="S3" CovItemPrefix="UntitledTest.java" Intrnl_Id="45">
+<LocList>
+<Loc EndOffset="239" SrcFileId="2" StartOffset="208"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+</HierarchyLvl>
+</HierarchyLvl>
+</MASTRoot>
+<TestSession Comment="" Date="1463084450741" Name="test1">
+<TestCase Comment="This is a test case containing all coverage results cause no startTestCase methods where captured." Date="1463084450318" Name="UNNAMED TESTCASE">
+<CovList>
+<CovPrefix CovItemPrefix="Untitled.java">
+<Cov CovItemId="B1" Value="6"/>
+<Cov CovItemId="B2" Value="94"/>
+<Cov CovItemId="B3" Value="27"/>
+<Cov CovItemId="B4" Value="67"/>
+<Cov CovItemId="B5" Value="14"/>
+<Cov CovItemId="B6" Value="53"/>
+<Cov CovItemId="L1-2" Value="1"/>
+<Cov CovItemId="S1" Value="1"/>
+<Cov CovItemId="S2" Value="100"/>
+<Cov CovItemId="S3" Value="6"/>
+<Cov CovItemId="S4" Value="94"/>
+<Cov CovItemId="S5" Value="27"/>
+<Cov CovItemId="S6" Value="67"/>
+<Cov CovItemId="S7" Value="14"/>
+<Cov CovItemId="S8" Value="53"/>
+<Cov CovItemId="S9" Value="1"/>
+</CovPrefix>
+<CovPrefix CovItemPrefix="UntitledTest.java">
+<Cov CovItemId="S1" Value="1"/>
+<Cov CovItemId="S2" Value="1"/>
+<Cov CovItemId="S3" Value="1"/>
+</CovPrefix>
+</CovList>
+<AssgnmntList>
+<AssgnmntPrefix RootTermCovItemPrefix="Untitled.java">
+<AssgnmntListEntry Length="1" RootTermCovItemId="C1">
+<MapEntry BoolAssgnmnt="0" Value="1"/>
+<MapEntry BoolAssgnmnt="1" Value="100"/>
+</AssgnmntListEntry>
+<AssgnmntListEntry Length="1" RootTermCovItemId="C2">
+<MapEntry BoolAssgnmnt="0" Value="94"/>
+<MapEntry BoolAssgnmnt="1" Value="6"/>
+</AssgnmntListEntry>
+<AssgnmntListEntry Length="1" RootTermCovItemId="C3">
+<MapEntry BoolAssgnmnt="0" Value="67"/>
+<MapEntry BoolAssgnmnt="1" Value="27"/>
+</AssgnmntListEntry>
+<AssgnmntListEntry Length="1" RootTermCovItemId="C4">
+<MapEntry BoolAssgnmnt="0" Value="53"/>
+<MapEntry BoolAssgnmnt="1" Value="14"/>
+</AssgnmntListEntry>
+</AssgnmntPrefix>
+</AssgnmntList>
+<ObjMetaDataList/>
+<MetaDataList/>
+</TestCase>
+<MetaDataList/>
+</TestSession>
+</TestSessionContainer>

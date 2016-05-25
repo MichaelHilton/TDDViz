@@ -1,0 +1,14 @@
+http://localhost:3000/markup/markup_comparison?researcher=Michael&id=E13866D50D&avatar=moose&kataName=Fizz_Buzz
+Problem with identifying asserts
+
+
+http://localhost:3000/markup/markup_comparison?researcher=Michael&id=FC68A94C89&avatar=frog&kataName=Calc_Stats
+problem with assert in method without @test
+
+http://localhost:3000/markup/markup_comparison?researcher=Michael&id=142AC1FF56&avatar=moose&kataName=Roman_Numerals
+how is a test edit different then a refactor?
+
+
+http://localhost:3000/markup/markup_comparison?researcher=Michael&id=2F1C8B92FA&avatar=elephant&kataName=100_doors
+after 4, it should go white
+

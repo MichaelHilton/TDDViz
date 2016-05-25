@@ -1,0 +1,72 @@
+<style type="text/css">
+.axis path,
+.axis line {
+	fill: none;
+	stroke: black;
+	shape-rendering: crispEdges;
+}
+.axis text {
+	font-family: sans-serif;
+	font-size: 10px;
+}
+.timeline-label {
+	font-family: sans-serif;
+	font-size: 12px;
+}
+#timeline2 .axis {
+transform: translate(0px,30px);
+-ms-transform: translate(0px,30px); /* IE 9 */
+-webkit-transform: translate(0px,30px); /* Safari and Chrome */
+-o-transform: translate(0px,30px); /* Opera */
+-moz-transform: translate(0px,30px); /* Firefox */
+}
+.coloredDiv {
+	height:20px; width:20px; float:left;
+}
+</style>
+<h1>ListAllViz</h1>
+<body>
+<div id="compare" class="CodeMirror">
+<div>
+
+<div>
+<h3>A simple timeline</h3>
+<div id="timeline1"></div>
+</div>
+<div>
+<h3>It works with circles too</h3>
+<div id="timeline2"></div>
+</div>
+<BR><BR><BR>
+
+<%= @katas['0A0D302A01'].avatars['cheetah'].lights[1].tag.visible_files['FizzBuzz.java'] %>
+
+
+</body>
+
+<script>
+var str1 = '<%= @katas['0A0D302A01'].avatars['cheetah'].lights[1].tag.visible_files['FizzBuzz.java'].to_s.gsub(/\n/, "\\n").html_safe %>';
+var str2 = '<%= @katas['0A0D302A01'].avatars['cheetah'].lights[4].tag.visible_files['FizzBuzz.java'].to_s.gsub(/\n/, "\\n").html_safe %>';
+$(document).ready(function () {
+					$('#compare').mergely({
+												cmsettings: { readOnly: true, lineNumbers: true, mode: "text/x-java"},
+												lhs: function(setValue) {
+													setValue(str1);
+												},
+												rhs: function(setValue) {
+													setValue(str2);
+												}
+					});
+});
+
+var testData = [
+	{times: [{"starting_time": 1, "ending_time": 2}, {"starting_time": 3, "ending_time": 4}]},
+	{times: [{"starting_time": 4, "ending_time": 6}, {"starting_time": 2, "ending_time": 3}]},
+	{times: [{"starting_time": 6, "ending_time": 8}]},
+];
+
+var width = 500;
+
+
+
+</script>
