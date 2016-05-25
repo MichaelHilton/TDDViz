@@ -1,19 +1,12 @@
 == TDDStudy README
 
-This README documents the steps necessary to get the
-application up and running.
+NOTE: a large amount of this code is from Cyber-dojo. https://github.com/JonJagger/cyber-dojo
+All future work should be built off the latest version there.
 
-* Ruby version
-JRuby 1.7.15
+This example should be ready to run.  Just download and then 
+run via
 
-* Gems
-Listed in Gemfile install via:
 'bundle install'
-Update via:
 'bundle update'
-
-* Database Initalization
-'bundle exec rake db:setup'
-
-* How to run the test suite
-TODO
+and then
+'bundle exec rails start'
