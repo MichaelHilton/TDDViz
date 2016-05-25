@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<%= include_gon %>
+
+
+<script src="//cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js"></script>
+<script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+<link rel="stylesheet" href="//cdn.datatables.net/1.10.4/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+
+
+
+<input type="hidden" id="refreshed" value="no">
+ <script type="text/javascript">
+//this will reload the page.  Kinda a hack, will implement ajax table loading when I have more time.
+ onload=function(){
+ var e=document.getElementById("refreshed");
+ if(e.value=="no")e.value="yes";
+ else{e.value="no";location.reload();}
+ }
+ </script>
+
+
+
+<style>
+td.view_kata {
+  background: url('<%= image_url('icons/icon_component.gif') %>') no-repeat center center;
+  cursor: pointer;
+}
+td.markup {
+  background: url('<%= image_url('icons/box.gif') %>') no-repeat center center;
+  cursor: pointer;
+}
+td.compile_count {
+  text-align: center;
+}
+td.markup_length {
+  text-align: center;
+}
+.ui-button{
+  height:20px;
+}
+.ui-button-text{
+  font-size: 10px;
+}
+</style>
+
+<h2>List Of All Sessions</h3>
+
+<BR><BR>
+
+
+<table id="myTable" class="display" cellspacing="0" width="100%">
+<thead>
+<tr>
+
+<th>Compile<br>Count</th>
+<th>CyberDojo<br>ID</th>
+<th>Avatar</th>
+<th>Kata<br>Name</th>
+<th>Lang/<br>Framework</th>
+<th>TDD<br>Score</th>
+<th>View Detail</th>
+</tr>
+</thead>
+
+<tfoot>
+<tr>
+
+<th>Compile<br>Count</th>
+<th>CyberDojo<br>ID</th>
+<th>Avatar</th>
+<th>Kata<br>Name</th>
+<th>Lang/<br>Framework</th>
+<th>TDD<br>Score</th>
+<th>View Detail</th>
+</tr>
+</tfoot>
+
+</table>
+
+<script>
+$(document).ready(function(){
+
+         console.log(gon);
+                    table = $('#myTable').DataTable( {
+                                                         "data": gon.allSessionsAndMarkup,
+                                                         "columns": [
+                                                         
+                                                         {
+                                                           "className":      'compile_count',
+                                                           "data":           'compile_count',
+                                                           "defaultContent": 'dt-center',
+                                                           "width":          '20px'
+                                                         },
+                                                         {
+                                                           "className":      'cyberdojo_id',
+                                                           "data":           'session.cyberdojo_id',
+                                                           "width":          '50px'
+                                                         },
+                                                         {
+                                                           "className":      'avatar',
+                                                           "data":           'session.avatar',
+                                                           "width":          '30px'
+                                                         },
+                                                         {
+                                                           "className":      'kata_name',
+                                                           "data":           'session.kata_name',
+                                                           "width":          '40px'
+
+                                                         },
+                                                         {
+                                                           "className":      'language_framework',
+                                                           "data":           'session.language_framework',
+                                                           "width":          '50px'
+                                                         },
+                                                         {
+                                                           "className":      'tdd_score',
+                                                           "data":           'session.tdd_score',
+                                                           "width":          '20px'
+                                                         },
+                                                         {
+                                                           "className":      'markup',
+                                                           "orderable":      false,
+                                                           "data":           null,
+                                                           "defaultContent": '',
+                                                           "width":          '20px'
+                                                         }
+                                                       ]
+                    } );
+});
+
+
+
+// Add event listener for opening and closing details
+$('#myTable').on('click', 'td.view_kata', function () {
+                   var cyberdojo_id = $(this).parent().find(".cyberdojo_id").html();
+                   var avatar = $(this).parent().find(".avatar").html();
+                   var kata_name = $(this).parent().find(".kata_name").html();
+                   window.location.href = "display_kata?id="+cyberdojo_id+"&avatar="+avatar+"&kataName="+kata_name;
+} );
+
+$('#myTable').on('click', 'td.markup', function () {
+                   var cyberdojo_id = $(this).parent().find(".cyberdojo_id").html();
+                   var avatar = $(this).parent().find(".avatar").html();
+                   var kata_name = $(this).parent().find(".kata_name").html();
+                   window.location.href = "display_kata?id="+cyberdojo_id+"&avatar="+avatar+"&kataName="+kata_name;
+} );
+</script>

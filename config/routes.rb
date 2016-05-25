@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
 
+  get 'tdd_viz/index'
+
+  get 'tdd_viz/' => 'tdd_viz#index'
+  
+  get 'tdd_viz/display_kata' => 'tdd_viz#display_kata'
+
   get 'visualizations/index'
 
   get 'viz/index'
