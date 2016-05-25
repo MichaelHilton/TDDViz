@@ -408,7 +408,7 @@ function TDDColor(color) {
 	} else if (color == "blue") {
 		return "#385e86";
 	} else if (color == "amber") {
-		return "white";
+		return "#CCC";
 	} else if (color == "white") {
 		return "#efefef";
 	} else if (color == "brown") {
